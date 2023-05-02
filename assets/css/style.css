@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .grid-container {
@@ -21,7 +22,7 @@ header img {
 header h1 {
     display: grid;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
 }
 
 
@@ -69,7 +70,6 @@ main {
 .gallery1 p {
     justify-content: center;
     align-items: center;
-    s
 }
 
 img {
@@ -80,6 +80,10 @@ img {
     align-items: center;
 }
 
+button {
+    background-color: #a5c9c4;
+    margin: 5px;
+}
 
 footer {
     grid-area: footer;
