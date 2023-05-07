@@ -70,20 +70,29 @@ main {
 .gallery1 p {
     justify-content: center;
     align-items: center;
+    margin-left: 100px;
 }
 
-img {
-    height: 100px;
-    width: 100px;
-    margin-top: 10px;
+.gallery1 img {
+    height: 150px;
+    width: 150x;
+    margin-left: 100px;
     justify-content: center;
     align-items: center;
+}
+botones{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    justify-items: start;
 }
 
 button {
     background-color: #a5c9c4;
-    margin: 5px;
+    width: 202px; 
+    height: 50px;
 }
+
 
 footer {
     grid-area: footer;
